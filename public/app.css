@@ -1,0 +1,34 @@
+.free-froms {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.free-from {
+  padding: 0.5em 1em;
+  margin: 0 0.5em 0.5em 0;
+  border: 1px solid;
+}
+.dairy {
+  color: #faa;
+}
+.eggs {
+  color: #ffe8aa;
+}
+.fish {
+  color: #bbffaa;
+}
+.gluten {
+  color: #aaffe3;
+}
+.nuts {
+  color: #aac8ff;
+}
+.shellfish {
+  color: #ddaaff;
+}
+.soy {
+  color: #ffaaea;
+}
+.yeast {
+  color: #ffaad5;
+}
