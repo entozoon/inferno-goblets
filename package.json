@@ -1,0 +1,35 @@
+{
+  "name": "inferno-goblets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode production",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "babel-plugin-inferno": "^6.0.5",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "concurrently": "^4.1.0",
+    "flextabs": "^0.2.0",
+    "inferno": "^7.1.13",
+    "inferno-hydrate": "^7.1.13",
+    "lodash": "^4.17.15",
+    "mini-css-extract-plugin": "^0.6.0",
+    "placeholder-shown-polyfill": "^1.1.0",
+    "postcss-loader": "^3.0.0",
+    "svg-sass": "^1.0.5"
+  }
+}
