@@ -6,11 +6,24 @@
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <div data-tags="free-from" hidden>
-      ["collection:Default
-      Category","delivery_form:Spray","free_from:Dairy","free_from:Eggs","free_from:Fish","free_from:Gluten","free_from:Nuts","free_from:Shellfish","free_from:Soy","free_from:Yeast","special_requirements:Non-GMO"]
-    </div>
+    <main>
+      <section>
+        <h2>Hidden during load:</h2>
+        <div data-tags="free-from" hidden>
+          ["collection:Default
+          Category","delivery_form:Spray","free_from:Dairy","free_from:Eggs","free_from:Fish","free_from:Gluten","free_from:Nuts","free_from:Shellfish","free_from:Soy","free_from:Yeast","special_requirements:Non-GMO"]
+        </div>
+      </section>
 
-    <script src="/app.js"></script>
+      <section>
+        <h2>Not hidden during load:</h2>
+        <div data-tags="free-from">
+          ["collection:Default
+          Category","delivery_form:Spray","free_from:Dairy","free_from:Eggs","free_from:Fish","free_from:Gluten","free_from:Nuts","free_from:Shellfish","free_from:Soy","free_from:Yeast","special_requirements:Non-GMO"]
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
   </body>
 </html>

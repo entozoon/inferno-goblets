@@ -9,8 +9,8 @@ dataTags &&
     let componentType = d.getAttribute("data-tags");
 
     try {
-      const data = JSON.parse(d.innerHTML);
-      // console.log(data);
+      const data = JSON.parse(d.innerHTML.replace(/(\r\n|\n|\r)/gm, ""));
+      console.log(data);
 
       // Probably could lodash this if I used my brain
       let tags = {};
@@ -23,7 +23,7 @@ dataTags &&
           }
         }
       });
-      // console.log(tags);
+      console.log(tags);
 
       let html = <p>No component type set by the data-tags attribute.</p>;
 
