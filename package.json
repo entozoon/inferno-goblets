@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --mode production",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production --env.build"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +23,7 @@
     "babel-plugin-inferno": "^6.0.5",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "concurrently": "^4.1.0",
+    "copy-webpack-plugin": "^5.0.3",
     "flextabs": "^0.2.0",
     "inferno": "^7.1.13",
     "inferno-hydrate": "^7.1.13",
