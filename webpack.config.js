@@ -46,6 +46,6 @@ module.exports = env => {
         }
       ]
     },
-    plugins: [new CopyWebpackPlugin([{ from: "static" }])]
+    plugins: [new CopyWebpackPlugin([{ from: "public" }])]
   };
 };
